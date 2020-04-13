@@ -1,14 +1,10 @@
 import React from "react";
+import imgd from "../img/imgd.png";
 const Description = () => {
   return (
     <section className=" container descripcion row d-flex justify-content-between my-5  ">
       <div className="caricatura container-12 col-sm-6 col-md-4  m-auto d-block">
-        <img
-          src="https://static1.squarespace.com/static/53a3776fe4b04f506a40e2cc/t/57ebfa94d1758ef9c9127c15/1475082905422/?format=1500w"
-          alt=""
-          width="400"
-          height="300"
-        />
+        <img src={imgd} alt="Responsive image" width="400" height="300" />
       </div>
       <div className="parrafo mx-5 container-12 col-sm-6 col-md-4">
         <div>
