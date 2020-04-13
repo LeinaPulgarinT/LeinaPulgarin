@@ -1,8 +1,8 @@
 import React from "react";
 const Description = () => {
   return (
-    <section className=" container descripcion row d-flex justify-content-around my-5  ">
-      <div className="caricatura container-12 col-sm-6 col-md-4">
+    <section className=" container descripcion row d-flex justify-content-between my-5  ">
+      <div className="caricatura container-12 col-sm-6 col-md-4  m-auto d-block">
         <img
           src="https://static1.squarespace.com/static/53a3776fe4b04f506a40e2cc/t/57ebfa94d1758ef9c9127c15/1475082905422/?format=1500w"
           alt=""
