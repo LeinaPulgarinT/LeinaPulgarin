@@ -1,38 +1,196 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+
+/* font-family: 'Roboto', sans-serif; 
+font-family: 'Montserrat', sans-serif;*/
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.section-presentacion {
+  /* background-image: url(../images/principal.jpg); */
+  background-image: url(./img/principal.jpg);
+  height: 657px;
+  background-position: center;
+  background-size: cover;
+}
+
+.marca-agua {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+.traducir {
+  max-width: 100%;
+}
+
+.imagen img {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 200px;
+  height: 200px;
+}
+
+.area-foto {
+  top: 20%;
+}
+
+.area-foto img {
+  border-radius: 50%;
+  border: 5px solid wheat;
+  max-width: 100%;
+  width: 160px;
+  height: 180px;
+}
+
+#red-social {
+  width: 200px;
+  height: 200px;
+}
+
+.title-presentacion {
+  text-align: center;
+  position: relative;
+  top: 30%;
+  color: wheat;
+  font-weight: normal;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 2px;
+}
+
+.img-portafolio {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.portafolio a img {
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.tribute {
+  border-radius: 5%;
+}
+
+.section-servicios {
+  /* background-image: url(../images/section-servicios.jpeg); */
+  background-image: url(./img/section-servicios.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  /* background: rgba(0, 0, 0, 0.7); */
+}
+
+button {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.paisaje-marca-agua {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-servicios {
+  color: wheat;
+  height: 100%;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.navbar {
+  color: wheat;
+}
+
+#navbarSupportedContent ul {
+  position: relative;
+  left: 50%;
+}
+
+span {
+  color: #00b0dc;
+}
+
+body .footer .container-footer .icon-facebook {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  position: relative;
+  display: block;
+  margin: auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 0.6rem;
 }
 
-.App-link {
-  color: #61dafb;
+.whatsap .icon-whatsapp {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  position: relative;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  padding-top: 0.6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.github .icon-github-circled {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  position: relative;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  padding-top: 0.6rem;
+}
+
+.gmail .icon-gmail {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  position: relative;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  padding-top: 0.6rem;
+  padding-right: 0.2rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.container-footer h4 {
+  font-size: 14px;
+}
+
+.container-footer div {
+  background-color: #00b0dc;
+  width: 4rem;
+  height: 4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  align-items: center;
+  border: 3px rgb(218, 213, 213) solid;
+}
+
+.container-footer div:hover {
+  width: 5rem;
+  height: 5rem;
 }
