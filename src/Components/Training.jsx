@@ -4,7 +4,7 @@ const Training = () => {
   return (
     <div className="container-fluid my-5" id="competencias">
       <h2 className="text-center text-info">FORMACION</h2>
-      <div className="d-flex my-5 justify-content-around">
+      <div className="d-flex my-5 justify-content-around ">
         <div className="mx-5">
           <h5 className="text-center">
             Diplomado en Algoritmia - LPOO| Comfenalco
