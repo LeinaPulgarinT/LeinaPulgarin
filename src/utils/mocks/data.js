@@ -94,7 +94,7 @@ export const data = {
     {
       title: "NOTICIAS API",
       repository: "https://cocky-fermi-68df4d.netlify.app/",
-      image: rockPaperScissors,
+      image: noticiasApi,
       githubPages: "https://github.com/LeinaPulgarinT/noticias-react-api",
     },
   ],
