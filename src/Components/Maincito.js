@@ -16,7 +16,7 @@ class Maincito extends React.Component {
     return (
       <div>
         <Presentation />
-        <Descripcion />
+        {/* <Descripcion /> */}
         <Proyects data={this.props.dataProyects} />
         <Training />
         <Skills />

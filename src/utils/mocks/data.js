@@ -8,7 +8,12 @@ import traducir from "../../img/traducir-contenido.jpg";
 import semantica from "../../img/semantica.png";
 import accesibilidad from "../../img/accesibilidad2.jpg";
 import interactividad from "../../img/diseño-interactivo.gif";
-
+import appClima from "../../img/appClima.PNG";
+import yourJob from "../../img/yourJob.PNG";
+import pacientesVeterinaria from "../../img/pacientesVete.PNG";
+import darkSky from "../../img/darkSky.PNG";
+import randomMachine from "../../img/randomQuoteMachine.PNG";
+import rockPaperScissors from "../../img/rockPaperScissors.PNG";
 export const data = {
   //   content: {},
   proyects: [
@@ -47,6 +52,43 @@ export const data = {
       repository: "https://leinapulgarint.github.io/redSocial/",
       image: redSocial,
       githubPages: "https://github.com/LeinaPulgarinT/redSocial",
+    },
+    {
+      title: "APP CLIMA",
+      repository: "https://eloquent-kalam-cd8ced.netlify.app/",
+      image: appClima,
+      githubPages: "https://github.com/LeinaPulgarinT/clima-app",
+    },
+    {
+      title: "YOUR JOB",
+      repository: "https://proyecto-final-your-job-2.now.sh/",
+      image: yourJob,
+      githubPages: "https://github.com/paolaA2494/Proyecto_Final_YourJob",
+    },
+    {
+      title: "ADM PACIENTES VETERINARIA",
+      repository: "https://xenodochial-joliot-d9031c.netlify.app/",
+      image: pacientesVeterinaria,
+      githubPages: "https://github.com/LeinaPulgarinT/pacientes-veterinaria",
+    },
+    {
+      title: "DARK SKY",
+      repository: "https://elegant-archimedes-d13a29.netlify.app/",
+      image: darkSky,
+      githubPages: "https://github.com/LeinaPulgarinT/prueba-tecnica",
+    },
+    {
+      title: "RANDOM QUOTE MACHINE",
+      repository: "https://serene-clarke-63018b.netlify.app/",
+      image: randomMachine,
+      githubPages: "https://github.com/LeinaPulgarinT/randommachine",
+    },
+
+    {
+      title: "ROCK, PAPER & SCISSORS",
+      repository: "https://piedra-papel-tigera.now.sh/",
+      image: rockPaperScissors,
+      githubPages: "https://github.com/LeinaPulgarinT/piedra-papel-tigera",
     },
   ],
 

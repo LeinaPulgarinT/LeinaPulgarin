@@ -3,15 +3,15 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
       id="navbar"
     >
-      <a className="navbar-brand" href="#">
+      <a class="navbar-brand" href="#">
         {" "}
         <span>LEINA</span> PULGARIN
       </a>
       <button
-        className="navbar-toggler"
+        class="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -19,28 +19,30 @@ const Navbar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <a className="nav-link" href="#inicio">
-              INICIO<span className="sr-only">(current)</span>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#inicio">
+              INICIO<span class="sr-only">(current)</span>
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#portafolio">
+          <li class="nav-item">
+            <a class="nav-link" href="#portafolio">
               PORTAFOLIO
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#competencias">
+          <li class="nav-item">
+            <a class="nav-link" href="#competencias">
               COMPETENCIAS
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link float-right" href="#acerca"></a>
+          <li class="nav-item">
+            <a class="nav-link float-right" href="#acerca">
+              ACERCA DE
+            </a>
           </li>
         </ul>
       </div>

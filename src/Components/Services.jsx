@@ -7,7 +7,7 @@ const Services = (props) => {
       <div className="container-fluid paisaje-marca-agua">
         <div className="container container-servicios">
           <h2 className="subtitulo-servicios d-block p-4 text-center">
-            Como desarrolladora Fronnt-End me asuguro de que los proyectos
+            Como desarrolladora Front-End me asuguro de que los proyectos
             cuenten con las siguientes caracteristicas.
           </h2>
           <div className="row">
