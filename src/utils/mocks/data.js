@@ -14,6 +14,7 @@ import pacientesVeterinaria from "../../img/pacientesVete.PNG";
 import darkSky from "../../img/darkSky.PNG";
 import randomMachine from "../../img/randomQuoteMachine.PNG";
 import rockPaperScissors from "../../img/rockPaperScissors.PNG";
+import noticiasApi from "../../img/noticiasApp.PNG";
 export const data = {
   //   content: {},
   proyects: [
@@ -89,6 +90,12 @@ export const data = {
       repository: "https://piedra-papel-tigera.now.sh/",
       image: rockPaperScissors,
       githubPages: "https://github.com/LeinaPulgarinT/piedra-papel-tigera",
+    },
+    {
+      title: "NOTICIAS API",
+      repository: "https://cocky-fermi-68df4d.netlify.app/",
+      image: rockPaperScissors,
+      githubPages: "https://github.com/LeinaPulgarinT/noticias-react-api",
     },
   ],
 
